@@ -11,7 +11,6 @@ jobs:
       - name: Install Dependencies
         run: npm install
       - name: Build site
-        run: npm run build
       # Deploy the site with netlify-cli
       - name: Deploy Site
         env:
