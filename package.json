@@ -1,7 +1,7 @@
 {
   "name": "cicd",
   "version": "1.0.0",
-  "description": "",
+  "description": "https://github.com/marketplace/actions/netlify-actions",
   "main": "index.js",
   "scripts": {
     "build": "echo \"no build\"",
