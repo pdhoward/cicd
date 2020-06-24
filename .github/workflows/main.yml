@@ -1,7 +1,6 @@
 name: 'Netlify Deploy'
 
 on: push
-name: Publish on Netlify
 
 jobs:
   publish:
