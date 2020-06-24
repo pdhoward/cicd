@@ -7,9 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # Checkout repo
-      - uses: actions/checkout@v2
-      - name: Install Dependencies
-        run: npm install
+      - uses: actions/checkout@v2      
       # Deploy the site with netlify-cli
       - name: Deploy Site
         env:
